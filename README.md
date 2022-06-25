@@ -29,7 +29,7 @@ A Simulator for a 32 bit RISC-V Instruction Set Architecture (ISA).
   The **Simulator** is enabled with pipelining capabilities, equipped with data-forwarding & static branch prediction mechanisms, with statistics related to CPI, number of hazards, number of branch mispredictions, etc visible for executions under different conditions enabled in the GUI.
   
 ### Phase 3
-  The **Simulator** is now enabled with the functionality of a single level instruction and data cache (I$ & D$), where both cache & cache block size, along with the type of cache (fully associative, set associative along with associativity, or direct mapped) can be specified by the user. Statistics such as number of memory accesses, hits, misses, along with displaying all the accessed & victim blocks are also displayed to give the user a better understanding of the cache usage.
+  The **Simulator** is now enabled with the functionality of a single level instruction and data cache, where both cache & cache block size, along with the type of cache (fully associative, set associative along with associativity, or direct mapped) can be specified by the user. Statistics such as number of memory accesses, hits, misses, along with displaying all the accessed & victim blocks are also displayed to give the user a better understanding of the cache usage.
       
 ### Technology Stack
 	Python 3 (for development of the simulator)
